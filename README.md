@@ -18,7 +18,19 @@ Or install it yourself as:
     $ gem install sc_read_data
 
 REALITY
-For development make sure that you run the app with bundle exec:
+Clone this repository
+
+	$ git clone git@github.com:Jaakob/sc_read_data.git sc_read_data
+
+Navigate to the App root
+
+	$ cd sc_read_data
+
+Run the bundler
+
+	$ bundle
+
+Make sure that you run the app with bundle exec (for development):
 
 	$ bundle exec bin/sc_read_data [options]
 
