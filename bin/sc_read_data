@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'methadone'
+require 'sc_read_data.rb'
+
+class App
+  include Methadone::Main
+
+  main do
+    if options[:results]
+      # when the -r,--results switch is present
+      ScReadData::display_results
+    else
+      # default behavior
+      ScReadData::read_data
+    end
+  end
+
+  on("-r","--results", "View Data Results")
+
+  version ScReadData::VERSION
+
+  description "A simple app for reading csv data"
+
+  go!
+end
