@@ -4,20 +4,6 @@ ScReadData is a command line application for parsing business and user csv data 
 
 ## Installation
 
-THEORETICALLY (if this gem was hosted on RubyGems)
-Add this line to your application's Gemfile:
-
-    gem 'sc_read_data'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install sc_read_data
-
-REALITY
 Clone this repository
 
 	$ git clone git@github.com:Jaakob/sc_read_data.git sc_read_data
@@ -33,6 +19,19 @@ Run the bundler
 Make sure that you run the app with bundle exec (for development):
 
 	$ bundle exec bin/sc_read_data [options]
+
+**If this gem were hosted on RubyGems**
+Add this line to your application's Gemfile:
+
+    gem 'sc_read_data'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install sc_read_data
 
 ## Usage
 
